@@ -1,0 +1,85 @@
+ID,Nome,Cor,Idade,Criador Origem,UF Origem,Propriedade,Sexo
+1,Fiorella,Branca,48,Minela,SP,1,f
+2,Liv,Branca,48,Sandro,RS,1,f
+3,Kirya,Partecolor,42,Minela,SP,1,f
+4,Belinha,BaT,36,Devanira,RS,1,f
+5,Blanch,Laranja,36,Andreia Ribas,PR,1,f
+6,Enzo,Creme,36,Paulo,ES,1,m
+7,Dodo,Preta,30,Claudia,RJ,0,f
+8,Iuky,Creme,30,CK,MG,1,f
+9,Bel,Branca,24,Magnolia,MG,0,f
+10,Charlote,Branca,24,Francisco Assis,SP,1,f
+11,Cherry,Laranja,24,Paulo,ES,1,f
+12,Dorinha,Branca,24,CK,MG,1,f
+13,Juju,Laranja,24,Paulo,ES,1,f
+14,Luna,Laranja,24,Paulo,ES,1,f
+15,Tata,Branca,24,Beto,SP,0,f
+16,Layde,Branca,21,CK,MG,1,f
+17,Carlota,Laranja,19,CK,MG,1,f
+18,Bia,Branca,18,Gustavo,MG,1,f
+19,Snoopy,Branca,18,CK,MG,1,m
+20,Sofia,Branca,18,Gustavo,MG,1,f
+21,Florzinha,Branca,16,CK,MG,1,f
+22,Khaterine,Branca,16,CK,MG,0,f
+23,Nina,Branca,16,Francisco Assis,SP,0,f
+24,Aurora,Creme,15,CK,MG,1,f
+25,Joana,Laranja,14,Davila,MG,1,f
+26,Ritinha,Branca,14,Davila,MG,1,f
+27,Cacau,Laranja,12,CK,MG,1,f
+28,Chloe,BaT,12,Francisco Jr,SP,1,f
+29,Jujuba,Laranja,12,Paulo,ES,1,f
+30,Panda,PeB,12,Ana Claudia,SP,1,f
+31,Kuma,Creme,11,Ana Claudia,SP,1,m
+32,Yumi,Creme,11,Ana Claudia,SP,1,f
+33,Zequinha,Branca,10,Ana Claudia,SP,1,m
+34,Pandora,PeB,11,CK,MG,0,f
+35,Ivy,Laranja,9,Faell,SC,1,f
+36,Meg,Laranja,9,Faell,SC,1,f
+37,Ana Lua,BaT,8,Marina Villaca,MG,1,f
+38,Fiona,Branca,8,CK,MG,1,f
+39,Linda,Laranja,8,CK,MG,1,f
+40,Mustang,Creme,8,Leonel,SC,0,m
+41,Alfajor,Partechoco,7,Kalanit,PR,1,m
+42,Blanck,Branca,8,CK,MG,0,f
+43,Kinder,Partechoco,7,Sandra Poms,SC,1,m
+44,Petit,Laranja,8,CK,MG,0,f
+45,Angel,Beaver,6,Cazon,SP,1,f
+46,Clarinha,Branca,6,Davila,MG,0,f
+47,Rogers,Branca,13,Paula Deepest,SP,1,m
+48,Valentina,Tricolor,6,Marlete,RS,1,f
+49,Zara,Chocotan,6,Valesca,MT,1,f
+50,Bombom,Partechoco,5,Priscila,SP,1,f
+51,Cristal,Branca,5,Marcia,GO,0,f
+52,James,Branca,11,Bosniac,SP,1,m
+53,Juliete,Creme,7,Marcia,GO,0,f
+54,Lilith,PeB,5,Valesca,MT,1,f
+55,Luna,Beaver,6,Iris,SP,0,f
+56,Vick,Preta,5,Marcia,GO,0,f
+57,Hana,BaT,4,Cazon,SP,1,f
+58,Kai,Partecolor /M,4,Cazon,SP,1,m
+59,Lira,Partecolor /M,4,Cazon,SP,1,f
+60,Kira,Partechoco,3,Cazon,SP,0,f
+61,Kayte,Chocotan,3,Cazon,SP,1,f
+62,Tasha,Laranja,3,Wescley,RJ,0,f
+65,Cler,Partechoco,2,Sandra Poms,SC,1,f
+66,Dakota,Partecolor,2,Gustavo,MG,1,f
+68,Flor,Creme,8,Dalton,PR,1,f
+74,Radija,Branca,2,Gustavo,MG,1,f
+75,Tamara,Creme,2,CK,MG,1,f
+76,DeveMag2,Branca,-,Magnolia,MG,0,f
+77,DeveMag3,Branca,-,Magnolia,MG,0,f
+86,Marie,Partechoco,4,Josiane Rieger,RS,1,f
+87,Pyong,Partecolor,19,Michelle Dumont,RJ,1,m
+88,Lia,Partecolor,13,Michelle Dumont,RJ,1,f
+89,Mia,Creme,22,Michelle Dumont,RJ,1,f
+90,Eva,Creme,20,Michelle Dumont,RJ,1,f
+91,Panda,Tricolor,30,Francisco Assis,SP,1,f
+92,Amarula,Partechoco,2,Jenifer,SP,1,f
+93,Mel,Partecolor,8,Moscogliato,PR,1,f
+94,Kiki,Partecolor,8,Moscogliato,PR,1,f
+95,Lindt,Tricolor,16,Eloy,SP,1,f
+96,Yeji,Branca,3,Gustavo,MG,1,f
+97,Rubi,Branca,8,Iris,SP,1,f
+98,Jade,Branca,8,Iris,SP,1,f
+99,Chandelle,Partecolor,4,Renata,MG,1,f
+100,Nutella,Partecolor,4,Renata,MG,1,f

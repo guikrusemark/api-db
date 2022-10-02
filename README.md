@@ -1,4 +1,4 @@
-# PetTech
+# PetTech application
 
 ## Test project for C++
 

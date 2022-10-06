@@ -1,8 +1,10 @@
 /*
-* This program is free software; you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation; either version 2 of the License, or
-* (at your option) any later version.
+* @author @guikrusemark
+* @date 2022/10/05
+* @brief This file contains the Table class.
+* @version 1.0
+* @license Open Source
+* 
 */
 #ifndef TABLE_H
 #define TABLE_H
@@ -13,21 +15,34 @@
 
 class Table {
     private:
-        std::vector<std::vector<std::string>> m_data;
+        std::vector<std::vector<std::string>> m_dataMatrix;
         std::string m_name;
         std::string m_filePath;
+        std::vector<std::string> m_header;
+
+        bool m_hasHeader = false;
 
     public:
         Table();
         Table(std::string name, std::string filePath);
 
+        /* 
+        * @brief Adds a row to the table.
+        * @param row The row to be added. 
+        */
         void addDataRow(std::string row);
 
-        unsigned int rowSize();
-        unsigned int columnSize();
+        unsigned int rowCount();
+        unsigned int columnCount();
 
         std::string getName();
         std::string getFilePath();
+        bool hasHeader();
 };
 
 #endif // TABLE_H
+
+// * TO DO -> adjusts tables with header
+// * TO DO -> atRow() : vector<string>
+// * TO DO -> atColumn() : vector<string>
+// * TO DO -> atCell() : string

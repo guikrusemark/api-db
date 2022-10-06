@@ -16,15 +16,19 @@ void Table::addDataRow(std::string row) {
         dataRow.push_back(cell);
     }
 
-    m_data.push_back(dataRow);
+    m_dataMatrix.push_back(dataRow);
 }
 
-unsigned int Table::rowSize() {
-    return m_data.size();
+unsigned int Table::rowCount() {
+    if(this->hasHeader()) {
+        m_dataMatrix.size() - 1;
+    } else {
+        m_dataMatrix.size();
+    }
 }
-unsigned int Table::columnSize() {
-    if(this->rowSize() != 0) {
-        return m_data[0].size();
+unsigned int Table::columnCount() {
+    if(this->rowCount() != 0) {
+        return m_dataMatrix[0].size();
     }
     return 0;
 }
@@ -34,4 +38,7 @@ std::string Table::getName() {
 }
 std::string Table::getFilePath() {
     return m_filePath;
+}
+bool Table::hasHeader() {
+    return m_hasHeader;
 }

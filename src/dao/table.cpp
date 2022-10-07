@@ -22,14 +22,15 @@ void Table::addDataRow(std::string row) {
     }
 
     m_dataMatrix.push_back(dataRow);
+
+    if(m_hasHeader) {
+        m_header = m_dataMatrix.at(0);
+        m_dataMatrix.erase(m_dataMatrix.begin());
+    }
 }
 
 unsigned int Table::rowCount() {
-    if(this->hasHeader()) {
-        return m_dataMatrix.size() - 1;
-    } else {
-        return m_dataMatrix.size();
-    }
+    return m_dataMatrix.size();
 }
 unsigned int Table::columnCount() {
     if(this->rowCount() != 0) {
@@ -46,4 +47,13 @@ std::string Table::getFilePath() {
 }
 bool Table::hasHeader() {
     return m_hasHeader;
+}
+std::vector<std::string> Table::getHeader() {
+    if(m_hasHeader) {
+        return m_header;
+    }
+    return {}; // TO DECIDE -> return empty vector or throw exception
+}
+bool Table::isSynced() {
+    return m_isSynced;
 }

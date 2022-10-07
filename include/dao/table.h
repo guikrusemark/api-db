@@ -1,9 +1,9 @@
 
-// * TO DO -> adjusts tables with header
-// * TO DO -> atRow() : vector<string>
-// * TO DO -> atColumn() : vector<string>
-// * TO DO -> atCell() : string
-// * TO DO -> syncFile()
+// TO DO -> adjusts tables with header
+// TO DO -> atRow() : vector<string>
+// TO DO -> atColumn() : vector<string>
+// TO DO -> atCell() : string
+// TO DO -> syncFile()
 
 /**
 * @author @guikrusemark
@@ -19,6 +19,7 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <fstream>
 
 class Table {
     private:
@@ -26,8 +27,8 @@ class Table {
         std::string m_name;
         std::string m_filePath;
         std::vector<std::string> m_header;
-
         bool m_hasHeader {false};
+        bool m_isSynced {true};
 
     public:
         Table();
@@ -47,6 +48,8 @@ class Table {
         std::string getFilePath();
         bool hasHeader();
         std::vector<std::string> getHeader();
+        bool isSynced();
+        void syncFile();
 };
 
 #endif // TABLE_H

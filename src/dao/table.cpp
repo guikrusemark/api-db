@@ -5,6 +5,11 @@ Table::Table(std::string name, std::string filePath) {
     m_name = name;
     m_filePath = filePath;
 }
+Table::Table(std::string name, std::string filePath, bool hasHeader) {
+    m_name = name;
+    m_filePath = filePath;
+    m_hasHeader = hasHeader;
+}
 
 void Table::addDataRow(std::string row) {
     std::vector<std::string> dataRow;
@@ -21,9 +26,9 @@ void Table::addDataRow(std::string row) {
 
 unsigned int Table::rowCount() {
     if(this->hasHeader()) {
-        m_dataMatrix.size() - 1;
+        return m_dataMatrix.size() - 1;
     } else {
-        m_dataMatrix.size();
+        return m_dataMatrix.size();
     }
 }
 unsigned int Table::columnCount() {

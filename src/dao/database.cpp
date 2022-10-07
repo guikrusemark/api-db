@@ -41,6 +41,7 @@ void Database::loadTable(std::string tableName) {
         std::ifstream inputFile = std::ifstream(filePath);
 
         if (inputFile.is_open()) {
+            std::cout << "Opened and loaded: " << filePath << std::endl;
             m_tables.insert({tableName, Table(tableName, filePath)});
 
             std::string row;

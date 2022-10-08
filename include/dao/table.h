@@ -1,9 +1,9 @@
 
-// TO DO -> adjusts tables with header
-// TO DO -> atRow() : vector<string>
-// TO DO -> atColumn() : vector<string>
-// TO DO -> atCell() : string
-// TO DO -> syncFile()
+// TODO -> adjusts tables with header
+// TODO -> atRow() : vector<string>
+// TODO -> atColumn() : vector<string>
+// TODO -> atCell() : string
+// TODO -> syncFile()
 
 /**
 * @author @guikrusemark
@@ -11,8 +11,8 @@
 * @brief This file contains the Table class.
 * @version 1.0
 * @license Open Source
-* 
 */
+
 #ifndef TABLE_H
 #define TABLE_H
 

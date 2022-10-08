@@ -1,15 +1,10 @@
 #include "dao/table.h"
 
 Table::Table() {}
-Table::Table(std::string name, std::string filePath) {
-    m_name = name;
-    m_filePath = filePath;
-}
-Table::Table(std::string name, std::string filePath, bool hasHeader) {
-    m_name = name;
-    m_filePath = filePath;
-    m_hasHeader = hasHeader;
-}
+Table::Table(std::string name, std::string filePath) 
+: m_name(name), m_filePath(filePath) {}
+Table::Table(std::string name, std::string filePath, bool hasHeader) 
+: m_name(name), m_filePath(filePath), m_hasHeader(hasHeader) {}
 
 void Table::addDataRow(std::string row) {
     std::vector<std::string> dataRow;
@@ -52,7 +47,7 @@ std::vector<std::string> Table::getHeader() {
     if(m_hasHeader) {
         return m_header;
     }
-    return {}; // TO DECIDE -> return empty vector or throw exception
+    return {}; // TODO -> decide whether return empty vector or throw exception
 }
 bool Table::isSynced() {
     return m_isSynced;

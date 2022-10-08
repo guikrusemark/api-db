@@ -1,9 +1,9 @@
 /**
-* This program is free software; you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation; either version 2 of the License, or
-* (at your option) any later version.
+* @author @guikrusemark
+* @brief Database class creates and manages .CSV tables.
 */
+// TODO -> resolve loadTable() BUG when file is not loaded in gdb but it is in make run
+
 #ifndef DATABASE_H
 #define DATABASE_H
 

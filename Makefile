@@ -28,4 +28,4 @@ run:
 	@touch **
 	./main.out
 clean:
-	$(RM) -r $(BUILD_DIR)/* $(TARGET)
+	rm -r $(BUILD_DIR)/* $(TARGET)
